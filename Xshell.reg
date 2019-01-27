@@ -1,0 +1,31 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Xshell.telnet]
+@="telnet"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Xshell.telnet\DefaultIcon]
+@="C:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe, 0"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Xshell.telnet\shell]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Xshell.telnet\shell\open]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Xshell.telnet\shell\open\command]
+@="\"C:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\" %1"
+
+[HKEY_CURRENT_USER\SOFTWARE\Xshell]
+
+[HKEY_CURRENT_USER\SOFTWARE\Xshell\Capabilities]
+
+[HKEY_CURRENT_USER\SOFTWARE\Xshell\Capabilities\URLAssociations]
+"telnet"="Xshell.telnet"
+
+[HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
+"Xshell"="Software\\Xshell\\Capabilities"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\telnet\shell]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\telnet\shell\open]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\telnet\shell\open\command]
+@="\"C:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\" %1"
